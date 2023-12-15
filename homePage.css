@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+
+:root {
+    --orange: #F2674A !important;;
+    --blue-light: #6ED0F7;
+    --text-color: #fff;
+    --black: #000;
+  }
 /* nav start */
 nav{
 
@@ -10,7 +17,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 5px 5px;
-    background-color:#F9E2F5;
+    background-color: white;
     box-shadow: 5px 5px 5px 5px rgb(208, 208, 208);
 }
 
@@ -23,15 +30,16 @@ nav{
 
 
 .nav-links ul li a{
+    padding: 7px 15px;
     color:rgb(237, 237, 237);
     font-weight: 500;
-    background-color: rgb(222, 40, 46);
-    padding: 7px;
+    background-color: var(--orange);
     border-radius: 7px;
+    letter-spacing: 1.5px;
 }
 
 .nav-links ul li a:hover{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--blue-light);
     color:rgb(11, 6, 6);
     font-weight: 500;
     transition: 0.4s;
